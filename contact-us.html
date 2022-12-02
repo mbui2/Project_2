@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" media="screen" href="css/meyers_and_normalize-form_reset.css">
+    <!-- https://fontawesome.com/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/navbar.css">
+    <link rel="stylesheet" media="screen" href="css/contact.css">
+    <script src="js/site.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&family=Poppins&family=Roboto+Slab&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="isud_header">
+            <a href="index.html"><img src="images/ISUD_Logo_color.png"
+                    alt="International Society of Universal Diaglogue"> International Society of Universal Diaglogue</a>
+        </div>
+        <nav class="navbar2">
+            <!-- NAVIGATION MENU -->
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html">Home</a></li>
+                <li class="nav-item"><a href="about-us.html">About Us</a></li>
+                <li class="nav-item"><a href="contact-us.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="flex-container">
+            <div class="info ">
+                <div class="whatWhereWhyConference2">
+                    <div class="imgLounge">
+                        <img id="lounge" src="images/cross-culture_image.png"
+                            alt="World Map with cartoon figures saying hello in their own language" class="img-fluid">
+                    </div>
+                </div>
+                <div class="about_contact">
+                    <p class="quote_home"><q><em>A language is not just words. It's a culture, a tradition, a
+                                unification of a community, a whole history that creates what a community is. It's all
+                                embodied in a language.</em></q>
+                        - Noam Chomsky
+                    </p>
+                    <p class="need_padding_1em">Have questions about the ISUD? Want to learn more about universal
+                        dialogue and cross
+                        communication? Or want to tell us about your experience? Then join our mailing list.
+                    </p>
+                </div>
+            </div>
+            <div class="formDiv">
+                <form method="get" action="#null" name="mailingListForm" autocomplete="on"
+                    onsubmit="return checkForm()">
+                    <div id="container">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="first_name" id="firstname" class="fontsize" placeholder="First Name"
+                            autocomplete="given-name">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="last_name" id="lastname" class="fontsize" placeholder="Last Name"
+                            autocomplete="family-name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email_data" id="email" class="fontsize" placeholder="Email"
+                            autocomplete="email">
+                        <div id="submit">
+                            <input type="submit" value="Join the Mailing List!" class="fontsize">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="clearer"></div>
+</body>
+
+</html>
