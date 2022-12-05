@@ -1,0 +1,43 @@
+@media (min-width: 650px) {
+    .nav-list {
+        display: flex;
+        width: 100%;
+    }
+}
+
+.nav-list {
+    background-color: #814CC8;
+    color: #fff;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    list-style-type: none;
+    font-family: 'Philosopher', 'Times New Roman';
+}
+
+.nav-item a {
+    display: flex;
+    font-size: 1.25em;
+    /* 20px */
+    text-decoration: none;
+    padding: 0.6875em 1.5625em;
+    /*11px 25px*/
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.nav-item li,
+.bottom-item li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: #814CC8;
+}
+
+.nav-item a:hover {
+    background-color: #ed87a6;
+    color: black;
+}

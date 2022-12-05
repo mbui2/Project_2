@@ -1,0 +1,398 @@
+html {
+  background-color: rgb(238, 238, 238);
+}
+
+.fontsize {
+  font-size: 1em;
+}
+
+/*** Index Page ***/
+.isud_header,
+.secheader {
+  font-family: 'Philosopher', 'Times New Roman';
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+  padding-top: .5%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 1.2em;
+}
+
+h1 {
+  font-family: 'Philosopher', 'Times New Roman';
+  font-size: 1.2em;
+  line-height: 1.44em;
+  font-weight: 500;
+  /* padding-bottom: 10px; */
+}
+
+p {
+  font-family: 'Roboto Slab', 'Garamond';
+  font-weight: 400;
+}
+
+.isud_header a {
+  text-decoration: none;
+}
+
+.isud_header img {
+  display: inline-block;
+  height: auto;
+  max-width: 5%;
+  vertical-align: middle;
+}
+
+.secheader {
+  background-color: #814CC8;
+  color: #f2f2f2;
+  padding: 10px 10px;
+}
+
+.whatWhereWhyConference img {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  /* max-width: 80%;
+    border-radius: 25px;
+    margin-top: .5%;
+    padding-top: .25%; */
+}
+
+.whatWhereWhyConference {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textWWWC {
+  font-weight: bold;
+  background-color: #71717182;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.whyNewYork {
+  text-align: left;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 1.2em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 97%;
+  padding: 12px 20px;
+  margin: 8px 1.5%;
+  border-radius: 6px;
+  background-color: rgb(255, 235, 212);
+}
+
+input[type=submit]:hover {
+  background-color: #ed87a6;
+  color: black;
+}
+
+input[type=submit] {
+  font-family: 'Lato', 'Franklin Gothic';
+  font-style: italic;
+  background-color: #814CC8;
+  color: white;
+}
+
+/* Slideshow container */
+.quote_home {
+  font-style: italic;
+  padding: 1em;
+}
+
+.need_padding_1em {
+  padding: 1em;
+}
+
+.slideshow-container {
+  /* float: right; */
+  box-sizing: border-box;
+  /* max-width: 1000px; */
+  max-height: 350px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  box-sizing: border-box;
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  max-height: 350px;
+  /* max-height: 350px; */
+}
+
+/* Caption text */
+.text {
+  box-sizing: border-box;
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  box-sizing: border-box;
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Fading animation */
+.fade {
+  box-sizing: border-box;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.slideshow-container2 {
+  width: 50%;
+  max-height: fit-content;
+}
+
+/** Xiaojie Luo page css code **/
+.container {
+  display: flex;
+  font-family: 'Roboto Slab', 'Garamond';
+  font-weight: 400;
+}
+
+.part1 {
+  border: 5px solid plum;
+  border-radius: 5px;
+  margin: 5px 5px;
+}
+
+.part2 {
+  border: 5px solid plum;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.image img {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.videotitle {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+  padding-top: .5%;
+  text-align: center;
+  background-color: #814CC8;
+  color: #f2f2f2;
+  padding: 10px 10px;
+}
+
+iframe {
+  align-self: center;
+  width: 70%;
+  height: 20em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+}
+
+/*** Index Page END ***/
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav li:not(:first-child) {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive li {
+    float: none;
+    display: list-item;
+    text-align: left;
+  }
+}
+
+/* Media Screen: Min-Width 510px */
+@media screen and (min-width: 510px) {
+  .fontsize {
+    font-size: 1.2em;
+  }
+
+  /*** Index Page ***/
+  .slideshow-container {
+    max-width: 50%;
+    max-height: fit-content;
+  }
+
+  .mySlides img {
+    width: 100%;
+    max-height: fit-content;
+    border-radius: 25px;
+  }
+
+  .whatWhereWhyConference img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 80%;
+    border-radius: 25px;
+    margin-top: .5%;
+    padding-top: .25%;
+  }
+
+  .whatWhereWhyConference {
+    width: 40%;
+    float: left;
+    margin-left: 1%;
+  }
+
+  .whyNewYork {
+    /* text-align: center; */
+    font-size: 1.2em;
+    line-height: 1.44em;
+    padding: 1.44em;
+    width: 45%;
+    float: right;
+    margin-right: 1%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #submit {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+
+  /*** Index Page End***/
+}
+
+/* Media Screen: Min-Width 768px */
+@media screen and (min-width: 768px) {
+  .fontsize {
+    font-size: 1em;
+  }
+
+  /*** Index Page ***/
+  .slideshow-container {
+    max-width: 50%;
+    max-height: fit-content;
+  }
+
+  .mySlides img {
+    width: 100%;
+    max-height: fit-content;
+    border-radius: 25px;
+  }
+
+  .whatWhereWhyConference img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 80%;
+    border-radius: 25px;
+    margin-top: .5%;
+    padding-top: .25%;
+  }
+
+  .whatWhereWhyConference {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #submit {
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    font-size: 0.9em;
+  }
+
+  /*** Index Page End***/
+}
+
+/* Fixed with for Larger screens*/
+@media screen and (min-width: 800px) {
+  .wrapper {
+    /* border: 1px solid #000; */
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
+  }
+
+  .clearer {
+    clear: both;
+  }
+
+  .secheader,
+  .nav-list {
+    border-radius: 6px;
+  }
+}
